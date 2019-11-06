@@ -1,14 +1,14 @@
-en:
+zh-TW:
   errors:
     messages:
       invalid_date: "日期有誤"
       invalid_time: "時間有誤"
       invalid_datetime: "日期與時間有誤"
       is_at: "must be at %{restriction}"
-      before: "時間需比%{restriction}早"
-      on_or_before: "時間需與%{restriction}相同或更早"
-      after: "時間需比%{restriction}晚"
-      on_or_after: "時間需與%{restriction}或更晚"
+      before: "需比%{restriction}早"
+      on_or_before: "需與%{restriction}相同或更早"
+      after: "需比%{restriction}晚"
+      on_or_after: "需與%{restriction}相同或更晚"
   validates_timeliness:
     error_value_formats:
       date: '%Y-%m-%d'
