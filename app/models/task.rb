@@ -1,7 +1,7 @@
 class Task < ApplicationRecord
   has_many :task_tags
 
-  validates :title, :description, presence: true
+  validates :title, :description, :start_time, :end_time, presence: true
   validates_datetime :end_time, on_or_after: :now
   validates_datetime :end_time, on_or_after: :start_time
 

@@ -9,7 +9,7 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 require 'rspec/rails'
 # Add additional requires below this line. Rails is not loaded until this point!
 
-Capybara.default_driver = :selenium_chrome_headless #追加 #headlessモードを使う場合は:selenium_chrome_headless
+Capybara.default_driver = :selenium_chrome #追加 #headlessモードを使う場合は:selenium_chrome_headless
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
 # spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are
