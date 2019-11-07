@@ -1,6 +1,6 @@
 sudo: required
 addons:
-  postgresql: "11"
+  postgresql: "11.5"
   apt:
     packages:
     - postgresql-11
